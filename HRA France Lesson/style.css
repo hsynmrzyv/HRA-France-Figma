@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Mountain.jpg");
+  height: 100vh;
+  background-size: cover;
+  font-family: "Poppins";
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1248px;
+  margin: 44px auto 200px;
+}
+
+.logo a {
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__list li {
+  margin-right: 30px;
+}
+
+.nav__list li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+.nav__list li .active {
+  border-bottom: 2px solid #000;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #7971ea;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero > div {
+  border-radius: 5px;
+  width: 539px;
+}
+
+.cta {
+  padding: 90px 42px;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  margin-right: 56px;
+}
+
+.cta h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.cta p {
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 50px 38px;
+}
+
+.form h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 38px;
+}
+
+.form button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form__input input {
+  font-family: inherit;
+  padding: 10px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid #777;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+}
+
+.form__input input:focus {
+  outline: none;
+}
